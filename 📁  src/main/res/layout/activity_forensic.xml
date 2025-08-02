@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btn_pick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pick Evidence"/>
+
+    <ProgressBar
+        android:id="@+id/progress"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/status"
+        android:text="Waiting..."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn_share"
+        android:text="Share Report"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
